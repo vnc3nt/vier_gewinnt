@@ -11,5 +11,6 @@
   "files.associations": {
     "keep_alive.h": "c",
     "esp_https_server.h": "c"
-  }
+  },
+  "todo-tree.tree.showBadges": false
 }

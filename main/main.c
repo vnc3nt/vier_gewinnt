@@ -1,7 +1,5 @@
 //TODO bei websitereload downloaded manchmal iwas komisches
 //TODO https Zertifikate sind ungültig
-//TODO Pause-Button 3 sek gedrückt halten um esp auszuschalten
-   //TODO dann kurz drücken um zu starten (wenn an strom angeschlossen soll esp auch erst schlafen bleiben)
 
 #include "webserver.h"
 #include <stdio.h>
@@ -15,6 +13,7 @@
 #include "esp_random.h"
 #include <esp_log.h>
 #include <cJSON.h>
+#include <esp_sleep.h>
 
 // Dauerspeicher
 #include "nvs_flash.h"
@@ -24,8 +23,11 @@
 
 
 
+
+
+
 // Pin Definitionen
-#define PAUSE_PIN           21
+#define PAUSE_PIN           15
 #define HUMAN_PIN1         18
 #define MACHINE_PIN_IN1    22
 #define MACHINE_PIN_OUT1   27
@@ -35,7 +37,7 @@
 #define LED1_PIN           25
 #define LED2_PIN           26
 #define PAUSE_LED_PIN      13
-#define POWER_LED_PIN      4
+#define POWER_LED_PIN      2
 
 // Timing Konstanten
 #define PULSE_DURATION           100
@@ -83,6 +85,51 @@ static bool need_to_send_signal = false;
 
 //server
 httpd_handle_t server_handle = NULL;
+
+
+
+#define LONG_PRESS_TIME 3000 // 3 Sekunden
+
+
+void shutdown_esp() {
+  // Stoppen Sie alle laufenden Prozesse
+  if (server_handle != NULL) {
+    httpd_stop(server_handle);
+  }
+  
+  
+  
+  // Konfigurieren Sie den Aufwach-Mechanismus
+  esp_sleep_enable_ext0_wakeup(PAUSE_PIN, 0); // Aufwachen bei LOW-Signal
+  
+  // Gehen Sie in den Deep-Sleep-Modus
+  esp_deep_sleep_start();
+}
+
+void check_long_press() {
+  static uint64_t press_start = 0;
+  if (gpio_get_level(PAUSE_PIN) == 0) { // Taste gedrückt
+    if (press_start == 0) {
+      press_start = esp_timer_get_time() / 1000;
+    } else if ((esp_timer_get_time() / 1000) - press_start > LONG_PRESS_TIME) {
+        // Langer Tastendruck erkannt
+
+        // Schalten Sie die Power-LED aus
+        gpio_set_level(POWER_LED_PIN, 0);
+        while (gpio_get_level(PAUSE_PIN) == 0)
+        {
+            vTaskDelay(pdMS_TO_TICKS(10));
+        }
+        shutdown_esp();
+        
+    }
+  } else {
+    press_start = 0;
+  }
+}
+
+
+
 
 static void update_leds(void) {
     gpio_set_level(LED1_PIN, its_player1s_turn);
@@ -365,6 +412,8 @@ static void end_game() {
         
         gpio_set_level(LED1_PIN, 0);
         gpio_set_level(LED2_PIN, 0);
+
+        check_long_press(); // Überprüfen Sie auf langen Tastendruck
         vTaskDelay(pdMS_TO_TICKS(500));
     }
     
@@ -535,8 +584,18 @@ void app_main(void) {
 
     while (is_game_paused)
     {
+        esp_sleep_wakeup_cause_t wakeup_reason = esp_sleep_get_wakeup_cause();
+        if (wakeup_reason == ESP_SLEEP_WAKEUP_EXT0) {
+            // Warten Sie auf das Loslassen der Taste
+            while (gpio_get_level(PAUSE_PIN) == 0) {
+                vTaskDelay(pdMS_TO_TICKS(10));
+            }
+        }
+
+        check_long_press(); // Überprüfen Sie auf langen Tastendruck
         // start game
         if (pause_event == 1) {
+            
             // Save Preferences der maxTime im Speicher falls sie sich geändert hat
             if (load_max_time(max_time) != max_time) {
                 save_max_time(max_time);
@@ -607,7 +666,6 @@ void app_main(void) {
             edit_time_press_duration = now - p2_press_start_time;
         }
 
-        
         vTaskDelay(pdMS_TO_TICKS(10));
     }
     
@@ -637,7 +695,8 @@ void app_main(void) {
         }
         
         
-        
+        check_long_press(); // Überprüfen Sie auf langen Tastendruck
+
         vTaskDelay(pdMS_TO_TICKS(10));
     }
 }
