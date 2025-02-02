@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/bootloader/bootloader.elf
+    add-symbol-file /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/vier_gewinnt.elf
+file /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/vier_gewinnt_client.elf

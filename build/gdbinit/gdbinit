@@ -1,2 +1,2 @@
-source /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/gdbinit/symbols
-source /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/gdbinit/connect
+source /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/gdbinit/symbols
+source /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/gdbinit/connect

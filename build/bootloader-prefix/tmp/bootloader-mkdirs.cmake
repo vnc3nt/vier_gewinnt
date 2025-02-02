@@ -10,18 +10,18 @@ if(NOT EXISTS "/Users/vnc3nt/esp/esp-idf/components/bootloader/subproject")
   file(MAKE_DIRECTORY "/Users/vnc3nt/esp/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/bootloader"
-  "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/bootloader-prefix"
-  "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/bootloader-prefix/tmp"
-  "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/bootloader-prefix/src/bootloader-stamp"
-  "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/bootloader-prefix/src"
-  "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/bootloader"
+  "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/bootloader-prefix"
+  "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/bootloader-prefix/tmp"
+  "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/bootloader-prefix/src/bootloader-stamp"
+  "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/bootloader-prefix/src"
+  "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

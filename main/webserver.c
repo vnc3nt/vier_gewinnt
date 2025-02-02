@@ -16,27 +16,103 @@
 #include "mdns.h"
 #include "global_vars.h"
 
+#include "freertos/FreeRTOS.h"
+#include "freertos/event_groups.h"
+
+
+
+// Definiere ein Event-Bit, das anzeigt, dass eine Verbindung hergestellt wurde
+#define WIFI_CONNECTED_BIT BIT0
+
+static EventGroupHandle_t s_wifi_event_group;
+
+static void event_handler(void *arg, esp_event_base_t event_base,
+                          int32_t event_id, void *event_data)
+{
+    if (event_base == WIFI_EVENT) {
+        switch (event_id) {
+            case WIFI_EVENT_STA_START:
+                esp_wifi_connect();
+                break;
+            case WIFI_EVENT_STA_DISCONNECTED:
+                ESP_LOGI("WIFI_STA", "Verbindung getrennt. Erneuter Verbindungsversuch...");
+                esp_wifi_connect();
+                xEventGroupClearBits(s_wifi_event_group, WIFI_CONNECTED_BIT);
+                break;
+            default:
+                break;
+        }
+    } else if (event_base == IP_EVENT && event_id == IP_EVENT_STA_GOT_IP) {
+        ip_event_got_ip_t *event = (ip_event_got_ip_t *) event_data;
+        ESP_LOGI("WIFI_STA", "Erhaltene IP: " IPSTR, IP2STR(&event->ip_info.ip));
+        xEventGroupSetBits(s_wifi_event_group, WIFI_CONNECTED_BIT);
+    }
+}
+
+static void wifi_init_sta(void)
+{
+    // Erstelle die Event-Gruppe
+    s_wifi_event_group = xEventGroupCreate();
+
+    // Initialisiere netif und das Standard-Event-Loop
+    ESP_ERROR_CHECK(esp_netif_init());
+    ESP_ERROR_CHECK(esp_event_loop_create_default());
+    
+    // Erstelle ein Standard-WiFi-STA-Interface
+    esp_netif_create_default_wifi_sta();
+    
+    // Initialisiere die WiFi-Konfiguration
+    wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
+    ESP_ERROR_CHECK(esp_wifi_init(&cfg));
+    
+    // Registriere Event-Handler für WiFi- und IP-Events
+    ESP_ERROR_CHECK(esp_event_handler_instance_register(WIFI_EVENT,
+                                                        ESP_EVENT_ANY_ID,
+                                                        &event_handler,
+                                                        NULL,
+                                                        NULL));
+    ESP_ERROR_CHECK(esp_event_handler_instance_register(IP_EVENT,
+                                                        IP_EVENT_STA_GOT_IP,
+                                                        &event_handler,
+                                                        NULL,
+                                                        NULL));
+    
+    // Konfiguriere den STA-Modus mit SSID und Passwort
+    wifi_config_t wifi_config = {
+        .sta = {
+            .ssid = "FRITZ!Box Gastzugang KF",
+            .password = "IOE8N9PeUTiH7FQIG8yx",
+            .threshold.authmode = WIFI_AUTH_WPA2_PSK,
+            .pmf_cfg = {
+                .capable = true,
+                .required = false
+            },
+        },
+    };
+    
+    // Setze den WiFi-Modus auf STA und wende die Konfiguration an
+    ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_STA));
+    ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_STA, &wifi_config));
+    
+    // Starte das WiFi
+    ESP_ERROR_CHECK(esp_wifi_start());
+    
+    ESP_LOGI("WIFI_STA", "WiFi im STA-Modus gestartet. Versuche Verbindung zu SSID: %s", "FRITZ!Box Gastzugang KF");
+    
+    // Warte blockierend, bis das Event "IP erhalten" gesetzt wurde
+    EventBits_t bits = xEventGroupWaitBits(s_wifi_event_group, WIFI_CONNECTED_BIT,
+                                           pdFALSE, pdTRUE, portMAX_DELAY);
+    
+    if (bits & WIFI_CONNECTED_BIT) {
+        ESP_LOGI("WIFI_STA", "Verbindung erfolgreich hergestellt.");
+    }
+}
+
+
+
+
 //gloabl server
 static httpd_handle_t server = NULL;
-
-
-
-// Access Point Configuration
-static const char* WIFI_SSID = "ESP32-Vier-Gewinnt";
-static const char* WIFI_PASS = "123456789";
-
-// WiFi Access Point Configuration
-static wifi_config_t wifi_config = {
-    .ap = {
-        .ssid = "ESP32-Vier-Gewinnt",
-        .ssid_len = sizeof("ESP32-Vier-Gewinnt") - 1,  // -1 due to null terminator
-        .channel = 1,
-        .password = "123456789",
-        .max_connection = 4,
-        .authmode = WIFI_AUTH_WPA2_PSK
-    },
-};
-
 
 #if !CONFIG_HTTPD_WS_SUPPORT
 #error This example cannot be used unless HTTPD_WS_SUPPORT is enabled in esp-http-server component configuration
@@ -386,32 +462,10 @@ static void wss_server_send_messages_task(void* pvParameters) {
 }
 
 
-static void wifi_init_softap(void)
-{
-    ESP_ERROR_CHECK(esp_netif_init());
-    ESP_ERROR_CHECK(esp_event_loop_create_default());
-    esp_netif_create_default_wifi_ap();
 
-    wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
-    ESP_ERROR_CHECK(esp_wifi_init(&cfg));
 
-    ESP_ERROR_CHECK(esp_wifi_set_mode(WIFI_MODE_AP));
-    ESP_ERROR_CHECK(esp_wifi_set_config(WIFI_IF_AP, &wifi_config));
-    ESP_ERROR_CHECK(esp_wifi_start());
 
-    // mDNS Initialization
-    esp_err_t err = mdns_init();
-    if (err) {
-        ESP_LOGE(TAG, "MDNS Init failed: %d", err);
-        return;
-    }
-    
-    // Configure hostname and service
-    mdns_hostname_set("viergewinnt");
-    mdns_instance_name_set("ESP32 Vier Gewinnt");
-    mdns_service_add(NULL, "_https", "_tcp", 443, NULL, 0);
 
-}
 
 static esp_err_t time_handler(httpd_req_t *req) {
     char response[128];
@@ -445,17 +499,11 @@ void init_webserver(void) {
     }
     ESP_ERROR_CHECK(ret);
 
-    // Initialize WiFi Access Point
-    wifi_init_softap();
+    // Initialize WiFi 
+    wifi_init_sta();
 
     // Start the WSS Server
     server = start_wss_echo_server();
-    if (server == NULL)
-    {
-        ESP_LOGE(TAG, "immer noch server == NULL");
-    }
-    
-    
     if (server == NULL)
     {
         ESP_LOGE(TAG, "Fehler beim Starten des WebSocket-Servers!");

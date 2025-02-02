@@ -1,4 +1,4 @@
-# Install script for directory: /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt
+# Install script for directory: /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/install_local_manifest.txt"
+  file(WRITE "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,16 +1,18 @@
 {
-  "C_Cpp.intelliSenseEngine": "default",
-  "idf.port": "/dev/tty.usbserial-10",
-  "idf.adapterTargetName": "esp32",
-  "idf.openOcdConfigs": [
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.port": "/dev/tty.usbserial-210",
+    "idf.adapterTargetName": "esp32",
+    "idf.openOcdConfigs": [
     "board/esp32-wrover-kit-3.3v.cfg"
-  ],
-  "idf.flashType": "UART",
-  "idf.espIdfPath": "/Users/vnc3nt/esp/esp-idf",
-  "idf.toolsPath": "/Users/vnc3nt/.espressif",
-  "files.associations": {
-    "keep_alive.h": "c",
-    "esp_https_server.h": "c"
-  },
-  "todo-tree.tree.showBadges": false
+    ],
+    "idf.flashType": "UART",
+    "idf.espIdfPath": "/Users/vnc3nt/esp/esp-idf",
+    "idf.toolsPath": "/Users/vnc3nt/.espressif",
+    "files.associations": {
+        "keep_alive.h": "c",
+        "esp_https_server.h": "c",
+        "protocol_examples_common.h": "c"
+    },
+    "todo-tree.tree.showBadges": false,
+
 }

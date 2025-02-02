@@ -1,15 +1,15 @@
 {
     "version":            "1.2",
-    "project_name":       "vier_gewinnt",
-    "project_version":    "cd6179d-dirty",
-    "project_path":       "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt",
+    "project_name":       "vier_gewinnt_client",
+    "project_version":    "f450586-dirty",
+    "project_path":       "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client",
     "idf_path":           "/Users/vnc3nt/esp/esp-idf",
-    "build_dir":          "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build",
-    "config_file":        "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/sdkconfig",
-    "config_defaults":    "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/sdkconfig.defaults",
-    "bootloader_elf":     "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/bootloader/bootloader.elf",
-    "app_elf":            "vier_gewinnt.elf",
-    "app_bin":            "vier_gewinnt.bin",
+    "build_dir":          "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build",
+    "config_file":        "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/sdkconfig",
+    "config_defaults":    "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/sdkconfig.defaults",
+    "bootloader_elf":     "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/bootloader/bootloader.elf",
+    "app_elf":            "vier_gewinnt_client.elf",
+    "app_bin":            "vier_gewinnt_client.bin",
     "build_type":         "flash_app",
     "git_revision":       "v5.5-dev-811-ga2f420a36e",
     "target":             "esp32",
@@ -21,12 +21,12 @@
     "monitor_toolprefix": "xtensa-esp32-elf-",
     "c_compiler":         "/Users/vnc3nt/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc",
     "config_environment" : {
-        "COMPONENT_KCONFIGS" : "/Users/vnc3nt/esp/esp-idf/components/console/Kconfig;/Users/vnc3nt/esp/esp-idf/components/driver/Kconfig;/Users/vnc3nt/esp/esp-idf/components/efuse/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp-tls/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_coex/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_common/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_ana_cmpr/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_dac/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_gpio/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_gptimer/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2c/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2s/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_ledc/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_mcpwm/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_parlio/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_pcnt/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_rmt/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdm/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_spi/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_tsens/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_uart/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_eth/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_event/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_http_server/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_https_server/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_mm/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_netif/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_partition/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_phy/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_pm/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_ringbuf/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_security/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_system/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_timer/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_wifi/Kconfig;/Users/vnc3nt/esp/esp-idf/components/freertos/Kconfig;/Users/vnc3nt/esp/esp-idf/components/hal/Kconfig;/Users/vnc3nt/esp/esp-idf/components/heap/Kconfig;/Users/vnc3nt/esp/esp-idf/components/log/Kconfig;/Users/vnc3nt/esp/esp-idf/components/lwip/Kconfig;/Users/vnc3nt/esp/esp-idf/components/mbedtls/Kconfig;/Users/vnc3nt/esp/esp-idf/components/newlib/Kconfig;/Users/vnc3nt/esp/esp-idf/components/nvs_flash/Kconfig;/Users/vnc3nt/esp/esp-idf/components/pthread/Kconfig;/Users/vnc3nt/esp/esp-idf/components/soc/Kconfig;/Users/vnc3nt/esp/esp-idf/components/spi_flash/Kconfig;/Users/vnc3nt/esp/esp-idf/components/vfs/Kconfig;/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/managed_components/espressif__mdns/Kconfig",
+        "COMPONENT_KCONFIGS" : "/Users/vnc3nt/esp/esp-idf/components/console/Kconfig;/Users/vnc3nt/esp/esp-idf/components/driver/Kconfig;/Users/vnc3nt/esp/esp-idf/components/efuse/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp-tls/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_coex/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_common/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_ana_cmpr/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_dac/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_gpio/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_gptimer/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2c/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2s/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_ledc/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_mcpwm/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_parlio/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_pcnt/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_rmt/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdm/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_spi/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_tsens/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_uart/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_driver_usb_serial_jtag/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_eth/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_event/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_http_server/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_https_server/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_mm/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_netif/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_partition/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_phy/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_pm/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_ringbuf/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_security/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_system/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_timer/Kconfig;/Users/vnc3nt/esp/esp-idf/components/esp_wifi/Kconfig;/Users/vnc3nt/esp/esp-idf/components/freertos/Kconfig;/Users/vnc3nt/esp/esp-idf/components/hal/Kconfig;/Users/vnc3nt/esp/esp-idf/components/heap/Kconfig;/Users/vnc3nt/esp/esp-idf/components/log/Kconfig;/Users/vnc3nt/esp/esp-idf/components/lwip/Kconfig;/Users/vnc3nt/esp/esp-idf/components/mbedtls/Kconfig;/Users/vnc3nt/esp/esp-idf/components/newlib/Kconfig;/Users/vnc3nt/esp/esp-idf/components/nvs_flash/Kconfig;/Users/vnc3nt/esp/esp-idf/components/pthread/Kconfig;/Users/vnc3nt/esp/esp-idf/components/soc/Kconfig;/Users/vnc3nt/esp/esp-idf/components/spi_flash/Kconfig;/Users/vnc3nt/esp/esp-idf/components/vfs/Kconfig;/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/managed_components/espressif__mdns/Kconfig",
         "COMPONENT_KCONFIGS_PROJBUILD" : "/Users/vnc3nt/esp/esp-idf/components/bootloader/Kconfig.projbuild;/Users/vnc3nt/esp/esp-idf/components/esp_app_format/Kconfig.projbuild;/Users/vnc3nt/esp/esp-idf/components/esp_rom/Kconfig.projbuild;/Users/vnc3nt/esp/esp-idf/components/esptool_py/Kconfig.projbuild;/Users/vnc3nt/esp/esp-idf/components/partition_table/Kconfig.projbuild;/Users/vnc3nt/esp/esp-idf/examples/common_components/protocol_examples_common/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "newlib", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "xtensa" ],
     "build_components" : [ "app_update", "bootloader", "bootloader_support", "console", "cxx", "driver", "efuse", "esp-tls", "esp_app_format", "esp_bootloader_format", "esp_coex", "esp_common", "esp_driver_ana_cmpr", "esp_driver_dac", "esp_driver_gpio", "esp_driver_gptimer", "esp_driver_i2c", "esp_driver_i2s", "esp_driver_ledc", "esp_driver_mcpwm", "esp_driver_parlio", "esp_driver_pcnt", "esp_driver_rmt", "esp_driver_sdio", "esp_driver_sdm", "esp_driver_sdmmc", "esp_driver_sdspi", "esp_driver_spi", "esp_driver_tsens", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_eth", "esp_event", "esp_http_server", "esp_https_server", "esp_hw_support", "esp_mm", "esp_netif", "esp_netif_stack", "esp_partition", "esp_phy", "esp_pm", "esp_ringbuf", "esp_rom", "esp_security", "esp_system", "esp_timer", "esp_vfs_console", "esp_wifi", "espressif__mdns", "esptool_py", "freertos", "hal", "heap", "http_parser", "json", "log", "lwip", "main", "mbedtls", "newlib", "nvs_flash", "partition_table", "protocol_examples_common", "pthread", "sdmmc", "soc", "spi_flash", "vfs", "wpa_supplicant", "xtensa", "" ],
-    "build_component_paths" : [ "/Users/vnc3nt/esp/esp-idf/components/app_update", "/Users/vnc3nt/esp/esp-idf/components/bootloader", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support", "/Users/vnc3nt/esp/esp-idf/components/console", "/Users/vnc3nt/esp/esp-idf/components/cxx", "/Users/vnc3nt/esp/esp-idf/components/driver", "/Users/vnc3nt/esp/esp-idf/components/efuse", "/Users/vnc3nt/esp/esp-idf/components/esp-tls", "/Users/vnc3nt/esp/esp-idf/components/esp_app_format", "/Users/vnc3nt/esp/esp-idf/components/esp_bootloader_format", "/Users/vnc3nt/esp/esp-idf/components/esp_coex", "/Users/vnc3nt/esp/esp-idf/components/esp_common", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_ana_cmpr", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_dac", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_gpio", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_gptimer", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2s", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_ledc", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_mcpwm", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_parlio", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_pcnt", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_rmt", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdio", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdm", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdmmc", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdspi", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_spi", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_tsens", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_uart", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_usb_serial_jtag", "/Users/vnc3nt/esp/esp-idf/components/esp_eth", "/Users/vnc3nt/esp/esp-idf/components/esp_event", "/Users/vnc3nt/esp/esp-idf/components/esp_http_server", "/Users/vnc3nt/esp/esp-idf/components/esp_https_server", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support", "/Users/vnc3nt/esp/esp-idf/components/esp_mm", "/Users/vnc3nt/esp/esp-idf/components/esp_netif", "/Users/vnc3nt/esp/esp-idf/components/esp_netif_stack", "/Users/vnc3nt/esp/esp-idf/components/esp_partition", "/Users/vnc3nt/esp/esp-idf/components/esp_phy", "/Users/vnc3nt/esp/esp-idf/components/esp_pm", "/Users/vnc3nt/esp/esp-idf/components/esp_ringbuf", "/Users/vnc3nt/esp/esp-idf/components/esp_rom", "/Users/vnc3nt/esp/esp-idf/components/esp_security", "/Users/vnc3nt/esp/esp-idf/components/esp_system", "/Users/vnc3nt/esp/esp-idf/components/esp_timer", "/Users/vnc3nt/esp/esp-idf/components/esp_vfs_console", "/Users/vnc3nt/esp/esp-idf/components/esp_wifi", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/managed_components/espressif__mdns", "/Users/vnc3nt/esp/esp-idf/components/esptool_py", "/Users/vnc3nt/esp/esp-idf/components/freertos", "/Users/vnc3nt/esp/esp-idf/components/hal", "/Users/vnc3nt/esp/esp-idf/components/heap", "/Users/vnc3nt/esp/esp-idf/components/http_parser", "/Users/vnc3nt/esp/esp-idf/components/json", "/Users/vnc3nt/esp/esp-idf/components/log", "/Users/vnc3nt/esp/esp-idf/components/lwip", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/main", "/Users/vnc3nt/esp/esp-idf/components/mbedtls", "/Users/vnc3nt/esp/esp-idf/components/newlib", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash", "/Users/vnc3nt/esp/esp-idf/components/partition_table", "/Users/vnc3nt/esp/esp-idf/examples/common_components/protocol_examples_common", "/Users/vnc3nt/esp/esp-idf/components/pthread", "/Users/vnc3nt/esp/esp-idf/components/sdmmc", "/Users/vnc3nt/esp/esp-idf/components/soc", "/Users/vnc3nt/esp/esp-idf/components/spi_flash", "/Users/vnc3nt/esp/esp-idf/components/vfs", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant", "/Users/vnc3nt/esp/esp-idf/components/xtensa", "" ],
+    "build_component_paths" : [ "/Users/vnc3nt/esp/esp-idf/components/app_update", "/Users/vnc3nt/esp/esp-idf/components/bootloader", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support", "/Users/vnc3nt/esp/esp-idf/components/console", "/Users/vnc3nt/esp/esp-idf/components/cxx", "/Users/vnc3nt/esp/esp-idf/components/driver", "/Users/vnc3nt/esp/esp-idf/components/efuse", "/Users/vnc3nt/esp/esp-idf/components/esp-tls", "/Users/vnc3nt/esp/esp-idf/components/esp_app_format", "/Users/vnc3nt/esp/esp-idf/components/esp_bootloader_format", "/Users/vnc3nt/esp/esp-idf/components/esp_coex", "/Users/vnc3nt/esp/esp-idf/components/esp_common", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_ana_cmpr", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_dac", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_gpio", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_gptimer", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2s", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_ledc", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_mcpwm", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_parlio", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_pcnt", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_rmt", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdio", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdm", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdmmc", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdspi", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_spi", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_tsens", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_uart", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_usb_serial_jtag", "/Users/vnc3nt/esp/esp-idf/components/esp_eth", "/Users/vnc3nt/esp/esp-idf/components/esp_event", "/Users/vnc3nt/esp/esp-idf/components/esp_http_server", "/Users/vnc3nt/esp/esp-idf/components/esp_https_server", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support", "/Users/vnc3nt/esp/esp-idf/components/esp_mm", "/Users/vnc3nt/esp/esp-idf/components/esp_netif", "/Users/vnc3nt/esp/esp-idf/components/esp_netif_stack", "/Users/vnc3nt/esp/esp-idf/components/esp_partition", "/Users/vnc3nt/esp/esp-idf/components/esp_phy", "/Users/vnc3nt/esp/esp-idf/components/esp_pm", "/Users/vnc3nt/esp/esp-idf/components/esp_ringbuf", "/Users/vnc3nt/esp/esp-idf/components/esp_rom", "/Users/vnc3nt/esp/esp-idf/components/esp_security", "/Users/vnc3nt/esp/esp-idf/components/esp_system", "/Users/vnc3nt/esp/esp-idf/components/esp_timer", "/Users/vnc3nt/esp/esp-idf/components/esp_vfs_console", "/Users/vnc3nt/esp/esp-idf/components/esp_wifi", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/managed_components/espressif__mdns", "/Users/vnc3nt/esp/esp-idf/components/esptool_py", "/Users/vnc3nt/esp/esp-idf/components/freertos", "/Users/vnc3nt/esp/esp-idf/components/hal", "/Users/vnc3nt/esp/esp-idf/components/heap", "/Users/vnc3nt/esp/esp-idf/components/http_parser", "/Users/vnc3nt/esp/esp-idf/components/json", "/Users/vnc3nt/esp/esp-idf/components/log", "/Users/vnc3nt/esp/esp-idf/components/lwip", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/main", "/Users/vnc3nt/esp/esp-idf/components/mbedtls", "/Users/vnc3nt/esp/esp-idf/components/newlib", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash", "/Users/vnc3nt/esp/esp-idf/components/partition_table", "/Users/vnc3nt/esp/esp-idf/examples/common_components/protocol_examples_common", "/Users/vnc3nt/esp/esp-idf/components/pthread", "/Users/vnc3nt/esp/esp-idf/components/sdmmc", "/Users/vnc3nt/esp/esp-idf/components/soc", "/Users/vnc3nt/esp/esp-idf/components/spi_flash", "/Users/vnc3nt/esp/esp-idf/components/vfs", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant", "/Users/vnc3nt/esp/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "app_update": {
             "alias": "idf::app_update",
@@ -39,7 +39,7 @@
             "priv_reqs": [ "esptool_py", "efuse", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/app_update/libapp_update.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/app_update/libapp_update.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/app_update/esp_ota_ops.c", "/Users/vnc3nt/esp/esp-idf/components/app_update/esp_ota_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -69,7 +69,7 @@
             "priv_reqs": [ "spi_flash", "mbedtls", "efuse", "heap", "esp_bootloader_format", "esp_app_format" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/bootloader_support/libbootloader_support.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/bootloader_support/libbootloader_support.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/bootloader_common.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/bootloader_common_loader.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/bootloader_clock_init.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/bootloader_mem.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/bootloader_random.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/bootloader_efuse.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/flash_encrypt.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/secure_boot.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/bootloader_random_esp32.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/bootloader_flash/src/flash_qio_mode.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash_config_esp32.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/bootloader_utility.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/flash_partitions.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/esp_image_format.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/idf/bootloader_sha.c", "/Users/vnc3nt/esp/esp-idf/components/bootloader_support/src/esp32/secure_boot_secure_features.c" ],
             "include_dirs": [ "include", "bootloader_flash/include" ]
         },
@@ -84,7 +84,7 @@
             "priv_reqs": [ "esp_driver_uart", "esp_driver_usb_serial_jtag" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/console/libconsole.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/console/libconsole.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/console/commands.c", "/Users/vnc3nt/esp/esp-idf/components/console/esp_console_common.c", "/Users/vnc3nt/esp/esp-idf/components/console/split_argv.c", "/Users/vnc3nt/esp/esp-idf/components/console/linenoise/linenoise.c", "/Users/vnc3nt/esp/esp-idf/components/console/esp_console_repl_chip.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_cmd.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_date.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_dbl.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_dstr.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_end.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_file.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_hashtable.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_int.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_lit.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_rem.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_rex.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_str.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/arg_utils.c", "/Users/vnc3nt/esp/esp-idf/components/console/argtable3/argtable3.c" ],
             "include_dirs": [ "/Users/vnc3nt/esp/esp-idf/components/console" ]
         },
@@ -99,7 +99,7 @@
             "priv_reqs": [ "pthread", "esp_system" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/cxx/libcxx.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/cxx/libcxx.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/cxx/cxx_exception_stubs.cpp", "/Users/vnc3nt/esp/esp-idf/components/cxx/cxx_guards.cpp", "/Users/vnc3nt/esp/esp-idf/components/cxx/cxx_init.cpp" ],
             "include_dirs": []
         },
@@ -114,7 +114,7 @@
             "priv_reqs": [ "efuse", "esp_timer", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/driver/libdriver.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/driver/libdriver.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/driver/deprecated/adc_legacy.c", "/Users/vnc3nt/esp/esp-idf/components/driver/deprecated/adc_dma_legacy.c", "/Users/vnc3nt/esp/esp-idf/components/driver/deprecated/dac_common_legacy.c", "/Users/vnc3nt/esp/esp-idf/components/driver/deprecated/esp32/dac_legacy.c", "/Users/vnc3nt/esp/esp-idf/components/driver/deprecated/timer_legacy.c", "/Users/vnc3nt/esp/esp-idf/components/driver/i2c/i2c.c", "/Users/vnc3nt/esp/esp-idf/components/driver/deprecated/i2s_legacy.c", "/Users/vnc3nt/esp/esp-idf/components/driver/deprecated/mcpwm_legacy.c", "/Users/vnc3nt/esp/esp-idf/components/driver/deprecated/pcnt_legacy.c", "/Users/vnc3nt/esp/esp-idf/components/driver/deprecated/rmt_legacy.c", "/Users/vnc3nt/esp/esp-idf/components/driver/deprecated/sigma_delta_legacy.c", "/Users/vnc3nt/esp/esp-idf/components/driver/touch_sensor/touch_sensor_common.c", "/Users/vnc3nt/esp/esp-idf/components/driver/touch_sensor/esp32/touch_sensor.c", "/Users/vnc3nt/esp/esp-idf/components/driver/twai/twai.c", "/Users/vnc3nt/esp/esp-idf/components/driver/deprecated/adc_i2s_deprecated.c" ],
             "include_dirs": [ "deprecated", "i2c/include", "touch_sensor/include", "twai/include", "touch_sensor/esp32/include" ]
         },
@@ -129,7 +129,7 @@
             "priv_reqs": [ "bootloader_support", "soc", "spi_flash", "esp_system", "esp_partition", "esp_app_format" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/efuse/libefuse.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/efuse/libefuse.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/efuse/esp32/esp_efuse_table.c", "/Users/vnc3nt/esp/esp-idf/components/efuse/esp32/esp_efuse_fields.c", "/Users/vnc3nt/esp/esp-idf/components/efuse/esp32/esp_efuse_utility.c", "/Users/vnc3nt/esp/esp-idf/components/efuse/src/esp_efuse_api.c", "/Users/vnc3nt/esp/esp-idf/components/efuse/src/esp_efuse_fields.c", "/Users/vnc3nt/esp/esp-idf/components/efuse/src/esp_efuse_utility.c", "/Users/vnc3nt/esp/esp-idf/components/efuse/src/efuse_controller/keys/without_key_purposes/three_key_blocks/esp_efuse_api_key.c", "/Users/vnc3nt/esp/esp-idf/components/efuse/src/esp_efuse_startup.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -144,7 +144,7 @@
             "priv_reqs": [ "http_parser", "esp_timer", "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp-tls/libesp-tls.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp-tls/libesp-tls.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp-tls/esp_tls.c", "/Users/vnc3nt/esp/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.c", "/Users/vnc3nt/esp/esp-idf/components/esp-tls/esp_tls_error_capture.c", "/Users/vnc3nt/esp/esp-idf/components/esp-tls/esp_tls_platform_port.c", "/Users/vnc3nt/esp/esp-idf/components/esp-tls/esp_tls_mbedtls.c" ],
             "include_dirs": [ "/Users/vnc3nt/esp/esp-idf/components/esp-tls", "esp-tls-crypto" ]
         },
@@ -159,7 +159,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_app_format/libesp_app_format.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_app_format/libesp_app_format.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_app_format/esp_app_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -174,7 +174,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -189,7 +189,7 @@
             "priv_reqs": [ "esp_timer", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_coex/libesp_coex.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_coex/libesp_coex.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_coex/esp32/esp_coex_adapter.c", "/Users/vnc3nt/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c", "/Users/vnc3nt/esp/esp-idf/components/esp_coex/src/coexist_debug.c" ],
             "include_dirs": [ "include" ]
         },
@@ -204,7 +204,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_common/libesp_common.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_common/libesp_common.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
             "include_dirs": [ "include" ]
         },
@@ -234,7 +234,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_driver_i2s" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_dac/libesp_driver_dac.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_dac/libesp_driver_dac.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_dac/dac_oneshot.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_dac/dac_cosine.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_dac/dac_continuous.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_dac/dac_common.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_dac/esp32/dac_dma.c" ],
             "include_dirs": [ "./include" ]
         },
@@ -249,7 +249,7 @@
             "priv_reqs": [ "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_gpio/src/gpio.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_gpio/src/gpio_glitch_filter_ops.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_gpio/src/rtc_io.c" ],
             "include_dirs": [ "include" ]
         },
@@ -264,7 +264,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_gptimer/src/gptimer.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_gptimer/src/gptimer_common.c" ],
             "include_dirs": [ "include" ]
         },
@@ -279,7 +279,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2c/i2c_master.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2c/i2c_common.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2c/i2c_slave.c" ],
             "include_dirs": [ "include" ]
         },
@@ -294,7 +294,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_i2s/libesp_driver_i2s.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2s/i2s_common.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2s/i2s_std.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2s/i2s_pdm.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_i2s/i2s_platform.c" ],
             "include_dirs": [ "include" ]
         },
@@ -309,7 +309,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_ledc/libesp_driver_ledc.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_ledc/src/ledc.c" ],
             "include_dirs": [ "include" ]
         },
@@ -324,7 +324,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cap.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_cmpr.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_com.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_fault.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_gen.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_oper.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_sync.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_mcpwm/src/mcpwm_timer.c" ],
             "include_dirs": [ "include" ]
         },
@@ -354,7 +354,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_pcnt/src/pulse_cnt.c" ],
             "include_dirs": [ "include" ]
         },
@@ -369,7 +369,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_rmt/src/rmt_common.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_rmt/src/rmt_rx.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_rmt/src/rmt_tx.c" ],
             "include_dirs": [ "include" ]
         },
@@ -384,7 +384,7 @@
             "priv_reqs": [ "esp_driver_gpio", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_sdio/libesp_driver_sdio.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_sdio/libesp_driver_sdio.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdio/src/sdio_slave.c" ],
             "include_dirs": [ "include" ]
         },
@@ -399,7 +399,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_sdm/libesp_driver_sdm.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdm/src/sdm.c" ],
             "include_dirs": [ "include" ]
         },
@@ -414,7 +414,7 @@
             "priv_reqs": [ "esp_timer", "esp_pm", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdmmc/src/sdmmc_transaction.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdmmc/src/sdmmc_host.c" ],
             "include_dirs": [ "include" ]
         },
@@ -429,7 +429,7 @@
             "priv_reqs": [ "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdspi/src/sdspi_crc.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdspi/src/sdspi_host.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_sdspi/src/sdspi_transaction.c" ],
             "include_dirs": [ "include" ]
         },
@@ -444,7 +444,7 @@
             "priv_reqs": [ "esp_timer", "esp_mm", "esp_driver_gpio", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_spi/libesp_driver_spi.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_common.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_master.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_slave.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_spi/src/gpspi/spi_dma.c" ],
             "include_dirs": [ "include" ]
         },
@@ -474,7 +474,7 @@
             "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_uart/libesp_driver_uart.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_driver_uart/src/uart.c", "/Users/vnc3nt/esp/esp-idf/components/esp_driver_uart/src/uart_vfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -504,7 +504,7 @@
             "priv_reqs": [ "log", "esp_timer", "esp_driver_spi", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_eth/libesp_eth.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_eth/libesp_eth.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_eth/src/esp_eth.c", "/Users/vnc3nt/esp/esp-idf/components/esp_eth/src/phy/esp_eth_phy_802_3.c", "/Users/vnc3nt/esp/esp-idf/components/esp_eth/src/esp_eth_netif_glue.c", "/Users/vnc3nt/esp/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp.c", "/Users/vnc3nt/esp/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp_dma.c", "/Users/vnc3nt/esp/esp-idf/components/esp_eth/src/mac/esp_eth_mac_esp_gpio.c", "/Users/vnc3nt/esp/esp-idf/components/esp_eth/src/phy/esp_eth_phy_generic.c", "/Users/vnc3nt/esp/esp-idf/components/esp_eth/src/phy/esp_eth_phy_dp83848.c", "/Users/vnc3nt/esp/esp-idf/components/esp_eth/src/phy/esp_eth_phy_ip101.c", "/Users/vnc3nt/esp/esp-idf/components/esp_eth/src/phy/esp_eth_phy_ksz80xx.c", "/Users/vnc3nt/esp/esp-idf/components/esp_eth/src/phy/esp_eth_phy_lan87xx.c", "/Users/vnc3nt/esp/esp-idf/components/esp_eth/src/phy/esp_eth_phy_rtl8201.c" ],
             "include_dirs": [ "include" ]
         },
@@ -519,7 +519,7 @@
             "priv_reqs": [ "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_event/libesp_event.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_event/libesp_event.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_event/default_event_loop.c", "/Users/vnc3nt/esp/esp-idf/components/esp_event/esp_event.c", "/Users/vnc3nt/esp/esp-idf/components/esp_event/esp_event_private.c" ],
             "include_dirs": [ "include" ]
         },
@@ -534,7 +534,7 @@
             "priv_reqs": [ "mbedtls", "lwip", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_http_server/libesp_http_server.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_http_server/libesp_http_server.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_http_server/src/httpd_main.c", "/Users/vnc3nt/esp/esp-idf/components/esp_http_server/src/httpd_parse.c", "/Users/vnc3nt/esp/esp-idf/components/esp_http_server/src/httpd_sess.c", "/Users/vnc3nt/esp/esp-idf/components/esp_http_server/src/httpd_txrx.c", "/Users/vnc3nt/esp/esp-idf/components/esp_http_server/src/httpd_uri.c", "/Users/vnc3nt/esp/esp-idf/components/esp_http_server/src/httpd_ws.c", "/Users/vnc3nt/esp/esp-idf/components/esp_http_server/src/util/ctrl_sock.c" ],
             "include_dirs": [ "include" ]
         },
@@ -549,7 +549,7 @@
             "priv_reqs": [ "lwip" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_https_server/libesp_https_server.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_https_server/libesp_https_server.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_https_server/src/https_server.c" ],
             "include_dirs": [ "include" ]
         },
@@ -564,7 +564,7 @@
             "priv_reqs": [ "efuse", "spi_flash", "bootloader_support", "esp_security", "esp_driver_gpio", "esp_timer", "esp_pm", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_hw_support/libesp_hw_support.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_hw_support/libesp_hw_support.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/cpu.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp32/esp_cpu_intr.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/esp_memory_utils.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp32/cpu_region_protect.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/esp_clk.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/clk_ctrl_os.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/hw_random.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/intr_alloc.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/mac_addr.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/periph_ctrl.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/revision.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/rtc_module.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/sleep_modem.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/sleep_modes.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/sleep_console.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/sleep_gpio.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/sleep_event.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/regi2c_ctrl.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/esp_gpio_reserve.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/sar_periph_ctrl_common.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp32/io_mux.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp32/esp_clk_tree.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp_clk_tree_common.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/dma/esp_dma_utils.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/dma/gdma_link.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/spi_share_hw_ctrl.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/spi_bus_lock.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/adc_share_hw_ctrl.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/rtc_wdt.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/mspi_timing_tuning.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/sleep_wake_stub.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/esp_clock_output.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_clk_init.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_init.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_sleep.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp32/chip_info.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp32/cache_sram_mmu.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/port/esp32/sar_periph_ctrl.c", "/Users/vnc3nt/esp/esp-idf/components/esp_hw_support/lowpower" ],
             "include_dirs": [ "include", "include/soc", "include/soc/esp32", "dma/include", "ldo/include", "debug_probe/include", "mspi_timing_tuning/include" ]
         },
@@ -579,7 +579,7 @@
             "priv_reqs": [ "heap", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_mm/libesp_mm.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_mm/libesp_mm.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_mm/esp_mmu_map.c", "/Users/vnc3nt/esp/esp-idf/components/esp_mm/port/esp32/ext_mem_layout.c", "/Users/vnc3nt/esp/esp-idf/components/esp_mm/esp_cache.c", "/Users/vnc3nt/esp/esp-idf/components/esp_mm/cache_esp32.c", "/Users/vnc3nt/esp/esp-idf/components/esp_mm/heap_align_hw.c" ],
             "include_dirs": [ "include" ]
         },
@@ -594,7 +594,7 @@
             "priv_reqs": [ "esp_netif_stack" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_netif/libesp_netif.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_netif/libesp_netif.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_netif/esp_netif_handlers.c", "/Users/vnc3nt/esp/esp-idf/components/esp_netif/esp_netif_objects.c", "/Users/vnc3nt/esp/esp-idf/components/esp_netif/esp_netif_defaults.c", "/Users/vnc3nt/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c", "/Users/vnc3nt/esp/esp-idf/components/esp_netif/lwip/esp_netif_sntp.c", "/Users/vnc3nt/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip_defaults.c", "/Users/vnc3nt/esp/esp-idf/components/esp_netif/lwip/netif/wlanif.c", "/Users/vnc3nt/esp/esp-idf/components/esp_netif/lwip/netif/ethernetif.c", "/Users/vnc3nt/esp/esp-idf/components/esp_netif/lwip/netif/esp_pbuf_ref.c" ],
             "include_dirs": [ "include" ]
         },
@@ -624,7 +624,7 @@
             "priv_reqs": [ "esp_system", "spi_flash", "partition_table", "bootloader_support", "app_update" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_partition/libesp_partition.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_partition/libesp_partition.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_partition/partition.c", "/Users/vnc3nt/esp/esp-idf/components/esp_partition/partition_target.c" ],
             "include_dirs": [ "include" ]
         },
@@ -639,7 +639,7 @@
             "priv_reqs": [ "nvs_flash", "esp_driver_gpio", "efuse", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_phy/libesp_phy.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_phy/libesp_phy.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_phy/src/phy_override.c", "/Users/vnc3nt/esp/esp-idf/components/esp_phy/src/lib_printf.c", "/Users/vnc3nt/esp/esp-idf/components/esp_phy/src/phy_common.c", "/Users/vnc3nt/esp/esp-idf/components/esp_phy/src/phy_init.c", "/Users/vnc3nt/esp/esp-idf/components/esp_phy/esp32/phy_init_data.c", "/Users/vnc3nt/esp/esp-idf/components/esp_phy/src/btbb_init.c" ],
             "include_dirs": [ "include", "esp32/include" ]
         },
@@ -654,7 +654,7 @@
             "priv_reqs": [ "esp_system", "esp_driver_gpio", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_pm/libesp_pm.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_pm/libesp_pm.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_pm/pm_locks.c", "/Users/vnc3nt/esp/esp-idf/components/esp_pm/pm_trace.c", "/Users/vnc3nt/esp/esp-idf/components/esp_pm/pm_impl.c" ],
             "include_dirs": [ "include" ]
         },
@@ -669,7 +669,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_ringbuf/ringbuf.c" ],
             "include_dirs": [ "include" ]
         },
@@ -684,7 +684,7 @@
             "priv_reqs": [ "soc", "hal" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_rom/libesp_rom.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_rom/libesp_rom.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_rom/patches/esp_rom_sys.c", "/Users/vnc3nt/esp/esp-idf/components/esp_rom/patches/esp_rom_print.c", "/Users/vnc3nt/esp/esp-idf/components/esp_rom/patches/esp_rom_crc.c", "/Users/vnc3nt/esp/esp-idf/components/esp_rom/patches/esp_rom_uart.c", "/Users/vnc3nt/esp/esp-idf/components/esp_rom/patches/esp_rom_spiflash.c", "/Users/vnc3nt/esp/esp-idf/components/esp_rom/patches/esp_rom_efuse.c", "/Users/vnc3nt/esp/esp-idf/components/esp_rom/patches/esp_rom_gpio.c", "/Users/vnc3nt/esp/esp-idf/components/esp_rom/patches/esp_rom_longjmp.S" ],
             "include_dirs": [ "include", "esp32/include", "esp32/include/esp32", "esp32" ]
         },
@@ -699,7 +699,7 @@
             "priv_reqs": [ "efuse", "esp_hw_support", "esp_system", "esp_timer" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_security/libesp_security.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_security/libesp_security.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_security/src/init.c", "/Users/vnc3nt/esp/esp-idf/components/esp_security/src/esp_crypto_lock.c" ],
             "include_dirs": [ "include" ]
         },
@@ -714,7 +714,7 @@
             "priv_reqs": [ "spi_flash", "esp_timer", "esp_mm", "bootloader_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_system/libesp_system.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_system/libesp_system.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_system/esp_err.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/crosscore_int.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/esp_ipc.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/freertos_hooks.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/int_wdt.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/panic.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/esp_system.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/startup.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/startup_funcs.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/system_time.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/stack_check.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/ubsan.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/xt_wdt.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/task_wdt/task_wdt_impl_timergroup.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/cpu_start.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/panic_handler.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/esp_system_chip.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/image_process.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/brownout.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/esp_ipc_isr.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_port.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_handler.S", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/arch/xtensa/esp_ipc_isr_routines.S", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_arch.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/arch/xtensa/panic_handler_asm.S", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/arch/xtensa/expression_with_stack_asm.S", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_helpers_asm.S", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/arch/xtensa/debug_stubs.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/arch/xtensa/trax.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/soc/esp32/highint_hdl.S", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/soc/esp32/clk.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/soc/esp32/system_internal.c", "/Users/vnc3nt/esp/esp-idf/components/esp_system/port/soc/esp32/cache_err_int.c" ],
             "include_dirs": [ "include" ]
         },
@@ -729,7 +729,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_timer/libesp_timer.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_timer/libesp_timer.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_timer/src/esp_timer.c", "/Users/vnc3nt/esp/esp-idf/components/esp_timer/src/esp_timer_init.c", "/Users/vnc3nt/esp/esp-idf/components/esp_timer/src/ets_timer_legacy.c", "/Users/vnc3nt/esp/esp-idf/components/esp_timer/src/system_time.c", "/Users/vnc3nt/esp/esp-idf/components/esp_timer/src/esp_timer_impl_common.c", "/Users/vnc3nt/esp/esp-idf/components/esp_timer/src/esp_timer_impl_lac.c" ],
             "include_dirs": [ "include" ]
         },
@@ -744,7 +744,7 @@
             "priv_reqs": [ "vfs", "esp_driver_uart", "esp_driver_usb_serial_jtag" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_vfs_console/libesp_vfs_console.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_vfs_console/libesp_vfs_console.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_vfs_console/vfs_console.c" ],
             "include_dirs": [ "include" ]
         },
@@ -759,7 +759,7 @@
             "priv_reqs": [ "esptool_py", "esp_pm", "esp_timer", "nvs_flash", "wpa_supplicant", "hal", "lwip", "esp_coex" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_wifi/libesp_wifi.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_wifi/libesp_wifi.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/esp_wifi/src/lib_printf.c", "/Users/vnc3nt/esp/esp-idf/components/esp_wifi/src/mesh_event.c", "/Users/vnc3nt/esp/esp-idf/components/esp_wifi/src/smartconfig.c", "/Users/vnc3nt/esp/esp-idf/components/esp_wifi/src/wifi_init.c", "/Users/vnc3nt/esp/esp-idf/components/esp_wifi/src/wifi_default.c", "/Users/vnc3nt/esp/esp-idf/components/esp_wifi/src/wifi_netif.c", "/Users/vnc3nt/esp/esp-idf/components/esp_wifi/src/wifi_default_ap.c", "/Users/vnc3nt/esp/esp-idf/components/esp_wifi/esp32/esp_adapter.c", "/Users/vnc3nt/esp/esp-idf/components/esp_wifi/src/smartconfig_ack.c" ],
             "include_dirs": [ "include", "include/local", "wifi_apps/include", "wifi_apps/nan_app/include" ]
         },
@@ -767,15 +767,15 @@
             "alias": "idf::espressif__mdns",
             "target": "___idf_espressif__mdns",
             "prefix": "idf",
-            "dir": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/managed_components/espressif__mdns",
+            "dir": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/managed_components/espressif__mdns",
             "type": "LIBRARY",
             "lib": "__idf_espressif__mdns",
             "reqs": [ "lwip", "console", "esp_netif" ],
             "priv_reqs": [ "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/espressif__mdns/libespressif__mdns.a",
-            "sources": [ "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/managed_components/espressif__mdns/mdns.c", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/managed_components/espressif__mdns/mdns_networking_lwip.c", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/managed_components/espressif__mdns/mdns_console.c" ],
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/espressif__mdns/libespressif__mdns.a",
+            "sources": [ "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/managed_components/espressif__mdns/mdns.c", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/managed_components/espressif__mdns/mdns_networking_lwip.c", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/managed_components/espressif__mdns/mdns_console.c" ],
             "include_dirs": [ "include" ]
         },
         "esptool_py": {
@@ -804,7 +804,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/freertos/libfreertos.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/freertos/libfreertos.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/freertos/heap_idf.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/app_startup.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/port_common.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/port_systick.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/list.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/timers.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/event_groups.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/stream_buffer.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/portasm.S", "/Users/vnc3nt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_init.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_overlay_os_hook.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/esp_additions/freertos_compatibility.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/esp_additions/idf_additions_event_groups.c", "/Users/vnc3nt/esp/esp-idf/components/freertos/esp_additions/idf_additions.c" ],
             "include_dirs": [ "config/include", "config/include/freertos", "config/xtensa/include", "FreeRTOS-Kernel/include", "FreeRTOS-Kernel/portable/xtensa/include", "FreeRTOS-Kernel/portable/xtensa/include/freertos", "esp_additions/include" ]
         },
@@ -819,7 +819,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/hal/libhal.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/hal/libhal.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/hal/hal_utils.c", "/Users/vnc3nt/esp/esp-idf/components/hal/mpu_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/efuse_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/esp32/efuse_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/wdt_hal_iram.c", "/Users/vnc3nt/esp/esp-idf/components/hal/mmu_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/esp32/cache_hal_esp32.c", "/Users/vnc3nt/esp/esp-idf/components/hal/color_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/spi_flash_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/spi_flash_hal_iram.c", "/Users/vnc3nt/esp/esp-idf/components/hal/spi_flash_encrypt_hal_iram.c", "/Users/vnc3nt/esp/esp-idf/components/hal/esp32/clk_tree_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/uart_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/uart_hal_iram.c", "/Users/vnc3nt/esp/esp-idf/components/hal/gpio_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/rtc_io_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/timer_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/ledc_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/ledc_hal_iram.c", "/Users/vnc3nt/esp/esp-idf/components/hal/i2c_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/i2c_hal_iram.c", "/Users/vnc3nt/esp/esp-idf/components/hal/rmt_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/pcnt_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/mcpwm_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/twai_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/twai_hal_iram.c", "/Users/vnc3nt/esp/esp-idf/components/hal/i2s_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/sdm_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/sdmmc_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/emac_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/adc_hal_common.c", "/Users/vnc3nt/esp/esp-idf/components/hal/adc_oneshot_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/adc_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/mpi_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/sha_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/aes_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/brownout_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/spi_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/spi_hal_iram.c", "/Users/vnc3nt/esp/esp-idf/components/hal/spi_slave_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/spi_slave_hal_iram.c", "/Users/vnc3nt/esp/esp-idf/components/hal/sdio_slave_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/esp32/touch_sensor_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/touch_sensor_hal.c", "/Users/vnc3nt/esp/esp-idf/components/hal/esp32/gpio_hal_workaround.c" ],
             "include_dirs": [ "platform_port/include", "esp32/include", "include" ]
         },
@@ -834,7 +834,7 @@
             "priv_reqs": [ "soc" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/heap/libheap.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/heap/libheap.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/heap/heap_caps_base.c", "/Users/vnc3nt/esp/esp-idf/components/heap/heap_caps.c", "/Users/vnc3nt/esp/esp-idf/components/heap/heap_caps_init.c", "/Users/vnc3nt/esp/esp-idf/components/heap/multi_heap.c", "/Users/vnc3nt/esp/esp-idf/components/heap/tlsf/tlsf.c", "/Users/vnc3nt/esp/esp-idf/components/heap/port/memory_layout_utils.c", "/Users/vnc3nt/esp/esp-idf/components/heap/port/esp32/memory_layout.c" ],
             "include_dirs": [ "include", "tlsf" ]
         },
@@ -849,7 +849,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/http_parser/libhttp_parser.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/http_parser/libhttp_parser.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/http_parser/http_parser.c" ],
             "include_dirs": [ "." ]
         },
@@ -864,7 +864,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/json/libjson.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/json/libjson.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/json/cJSON/cJSON.c", "/Users/vnc3nt/esp/esp-idf/components/json/cJSON/cJSON_Utils.c" ],
             "include_dirs": [ "cJSON" ]
         },
@@ -879,7 +879,7 @@
             "priv_reqs": [ "soc", "hal", "esp_hw_support" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/log/liblog.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/log/liblog.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/log/src/os/log_timestamp.c", "/Users/vnc3nt/esp/esp-idf/components/log/src/log_timestamp_common.c", "/Users/vnc3nt/esp/esp-idf/components/log/src/os/log_lock.c", "/Users/vnc3nt/esp/esp-idf/components/log/src/os/log_write.c", "/Users/vnc3nt/esp/esp-idf/components/log/src/buffer/log_buffers.c", "/Users/vnc3nt/esp/esp-idf/components/log/src/util.c", "/Users/vnc3nt/esp/esp-idf/components/log/src/log_level/log_level.c", "/Users/vnc3nt/esp/esp-idf/components/log/src/log_level/tag_log_level/tag_log_level.c", "/Users/vnc3nt/esp/esp-idf/components/log/src/log_level/tag_log_level/linked_list/log_linked_list.c", "/Users/vnc3nt/esp/esp-idf/components/log/src/log_level/tag_log_level/cache/log_binary_heap.c" ],
             "include_dirs": [ "include" ]
         },
@@ -894,7 +894,7 @@
             "priv_reqs": [ "vfs" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/lwip/liblwip.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/lwip/liblwip.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/lwip/apps/sntp/sntp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/api/api_lib.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/api/api_msg.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/api/err.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/api/if_api.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/api/netbuf.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/api/netdb.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/api/netifapi.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/api/sockets.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/api/tcpip.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/apps/sntp/sntp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/apps/netbiosns/netbiosns.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/def.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/dns.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/inet_chksum.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/init.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ip.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/mem.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/memp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/netif.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/pbuf.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/raw.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/stats.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/sys.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/tcp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/tcp_in.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/tcp_out.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/timeouts.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/udp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv4/autoip.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv4/dhcp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv4/etharp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv4/icmp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv4/igmp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv4/ip4.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_napt.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_addr.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv4/ip4_frag.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv6/dhcp6.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv6/ethip6.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv6/icmp6.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv6/inet6.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv6/ip6.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_addr.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv6/ip6_frag.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv6/mld6.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/core/ipv6/nd6.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ethernet.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/bridgeif.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/bridgeif_fdb.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/slipif.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/auth.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ccp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/chap-md5.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/chap-new.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/chap_ms.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/demand.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/eap.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ecp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/eui64.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/fsm.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ipcp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ipv6cp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/lcp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/magic.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/mppe.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/multilink.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/ppp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppapi.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppcrypt.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppoe.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppol2tp.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/pppos.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/upap.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/utils.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/vj.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/port/hooks/tcp_isn_default.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/port/hooks/lwip_default_hooks.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/port/debug/lwip_debug.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/port/sockets_ext.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/port/freertos/sys_arch.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/port/acd_dhcp_check.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/port/esp32xx/vfs_lwip.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/apps/ping/esp_ping.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/apps/ping/ping.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/apps/ping/ping_sock.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/arc4.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/des.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md4.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/md5.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/lwip/src/netif/ppp/polarssl/sha1.c", "/Users/vnc3nt/esp/esp-idf/components/lwip/apps/dhcpserver/dhcpserver.c" ],
             "include_dirs": [ "include", "include/apps", "include/apps/sntp", "lwip/src/include", "port/include", "port/freertos/include/", "port/esp32xx/include", "port/esp32xx/include/arch", "port/esp32xx/include/sys" ]
         },
@@ -902,15 +902,15 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/main",
+            "dir": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/main",
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [ "driver", "json" ],
             "priv_reqs": [ "esp_https_server", "nvs_flash", "esp_timer", "esp_netif", "esp_eth", "esp_wifi", "espressif__mdns", "protocol_examples_common" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__mdns", "protocol_examples_common" ],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/main/libmain.a",
-            "sources": [ "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/main/main.c", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/main/webserver.c", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/main/keep_alive.c", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/index.html.S", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/style.css.S", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/script.js.S", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/sun-moon.png.S", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/servercert.pem.S", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/prvtkey.pem.S" ],
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/main/libmain.a",
+            "sources": [ "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/main/main.c", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/main/webserver.c", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/main/keep_alive.c", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/index.html.S", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/style.css.S", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/script.js.S", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/sun-moon.png.S", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/servercert.pem.S", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/prvtkey.pem.S" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
@@ -924,8 +924,8 @@
             "priv_reqs": [ "soc", "esp_hw_support", "esp_pm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/mbedtls/libmbedtls.a",
-            "sources": [ "/Users/vnc3nt/esp/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/x509_crt_bundle.S" ],
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/mbedtls/libmbedtls.a",
+            "sources": [ "/Users/vnc3nt/esp/esp-idf/components/mbedtls/esp_crt_bundle/esp_crt_bundle.c", "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/x509_crt_bundle.S" ],
             "include_dirs": [ "port/include", "mbedtls/include", "mbedtls/library", "esp_crt_bundle/include" ]
         },
         "newlib": {
@@ -939,7 +939,7 @@
             "priv_reqs": [ "soc", "spi_flash" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/newlib/libnewlib.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/newlib/libnewlib.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/newlib/src/init.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/abort.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/assert.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/heap.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/locks.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/poll.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/pthread.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/random.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/getentropy.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/termios.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/stdatomic.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/time.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/sysconf.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/realpath.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/scandir.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/syscalls.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/reent_syscalls.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/port/esp_time_impl.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/flockfile.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/reent_init.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/newlib_init.c", "/Users/vnc3nt/esp/esp-idf/components/newlib/src/port/esp_time_impl.c" ],
             "include_dirs": [ "platform_include" ]
         },
@@ -954,7 +954,7 @@
             "priv_reqs": [ "spi_flash", "newlib" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/nvs_flash/libnvs_flash.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/nvs_flash/libnvs_flash.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_api.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_cxx_api.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_page.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_storage.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_handle_simple.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_handle_locked.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_partition.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_partition_lookup.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_partition_manager.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_types.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_platform.cpp", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_bootloader.c", "/Users/vnc3nt/esp/esp-idf/components/nvs_flash/src/nvs_encrypted_partition.cpp" ],
             "include_dirs": [ "include" ]
         },
@@ -984,7 +984,7 @@
             "priv_reqs": [ "esp_netif", "esp_driver_gpio", "esp_driver_uart", "esp_wifi", "vfs", "console", "esp_eth" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/protocol_examples_common/libprotocol_examples_common.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/protocol_examples_common/libprotocol_examples_common.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/examples/common_components/protocol_examples_common/stdin_out.c", "/Users/vnc3nt/esp/esp-idf/examples/common_components/protocol_examples_common/addr_from_stdin.c", "/Users/vnc3nt/esp/esp-idf/examples/common_components/protocol_examples_common/connect.c", "/Users/vnc3nt/esp/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c", "/Users/vnc3nt/esp/esp-idf/examples/common_components/protocol_examples_common/protocol_examples_utils.c", "/Users/vnc3nt/esp/esp-idf/examples/common_components/protocol_examples_common/console_cmd.c" ],
             "include_dirs": [ "include" ]
         },
@@ -999,7 +999,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/pthread/libpthread.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/pthread/libpthread.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/pthread/pthread.c", "/Users/vnc3nt/esp/esp-idf/components/pthread/pthread_cond_var.c", "/Users/vnc3nt/esp/esp-idf/components/pthread/pthread_local_storage.c", "/Users/vnc3nt/esp/esp-idf/components/pthread/pthread_rwlock.c", "/Users/vnc3nt/esp/esp-idf/components/pthread/pthread_semaphore.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1014,7 +1014,7 @@
             "priv_reqs": [ "soc", "esp_timer", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/sdmmc/libsdmmc.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/sdmmc/libsdmmc.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/sdmmc/sdmmc_cmd.c", "/Users/vnc3nt/esp/esp-idf/components/sdmmc/sdmmc_common.c", "/Users/vnc3nt/esp/esp-idf/components/sdmmc/sdmmc_init.c", "/Users/vnc3nt/esp/esp-idf/components/sdmmc/sdmmc_io.c", "/Users/vnc3nt/esp/esp-idf/components/sdmmc/sdmmc_mmc.c", "/Users/vnc3nt/esp/esp-idf/components/sdmmc/sdmmc_sd.c", "/Users/vnc3nt/esp/esp-idf/components/sdmmc/sd_pwr_ctrl/sd_pwr_ctrl.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1029,7 +1029,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/soc/libsoc.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/soc/libsoc.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/soc/lldesc.c", "/Users/vnc3nt/esp/esp-idf/components/soc/dport_access_common.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/interrupts.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/gpio_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/uart_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/dport_access.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/adc_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/emac_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/spi_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/ledc_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/pcnt_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/rmt_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/sdm_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/i2s_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/i2c_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/timer_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/lcd_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/mcpwm_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/mpi_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/sdmmc_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/touch_sensor_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/twai_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/wdt_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/dac_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/rtc_io_periph.c", "/Users/vnc3nt/esp/esp-idf/components/soc/esp32/sdio_slave_periph.c" ],
             "include_dirs": [ "include", "esp32", "esp32/include", "esp32/register" ]
         },
@@ -1044,7 +1044,7 @@
             "priv_reqs": [ "bootloader_support", "app_update", "soc", "esp_mm", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/spi_flash/libspi_flash.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/spi_flash/libspi_flash.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/spi_flash/flash_brownout_hook.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/spi_flash_chip_drivers.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/spi_flash_chip_generic.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/spi_flash_chip_issi.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/spi_flash_chip_mxic.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/spi_flash_chip_gd.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/spi_flash_chip_winbond.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/spi_flash_chip_boya.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/spi_flash_chip_mxic_opi.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/spi_flash_chip_th.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/memspi_host_driver.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/cache_utils.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/flash_mmap.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/flash_ops.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/spi_flash_wrap.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/esp_flash_api.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/esp_flash_spi_init.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/spi_flash_os_func_app.c", "/Users/vnc3nt/esp/esp-idf/components/spi_flash/spi_flash_os_func_noos.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1059,7 +1059,7 @@
             "priv_reqs": [ "esp_timer", "esp_driver_uart", "esp_driver_usb_serial_jtag", "esp_vfs_console" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/vfs/libvfs.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/vfs/libvfs.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/vfs/vfs.c", "/Users/vnc3nt/esp/esp-idf/components/vfs/vfs_eventfd.c", "/Users/vnc3nt/esp/esp-idf/components/vfs/vfs_semihost.c", "/Users/vnc3nt/esp/esp-idf/components/vfs/nullfs.c" ],
             "include_dirs": [ "include" ]
         },
@@ -1074,7 +1074,7 @@
             "priv_reqs": [ "mbedtls", "esp_timer", "esp_wifi" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/wpa_supplicant/libwpa_supplicant.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/port/os_xtensa.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/port/eloop.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/ap/ap_config.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_1x.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/ap/wpa_auth_ie.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/ap/pmksa_cache_auth.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/ap/sta_info.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/ap/ieee802_11.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/ap/comeback_token.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/common/sae.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/common/dragonfly.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/common/wpa_common.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/utils/bitfield.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-siv.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-kdf.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/ccmp.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-gcm.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/crypto_ops.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_group5.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/dh_groups.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/ms_funcs.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tlsprf.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-tlsprf.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-tlsprf.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/sha256-prf.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-prf.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/sha384-prf.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/md4-internal.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/sha1-tprf.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_common/eap_wsc_common.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/common/ieee802_11_common.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/chap.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_common.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_mschapv2.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_peap_common.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_tls_common.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_ttls.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/mschapv2.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_common.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/eap_peer/eap_fast_pac.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/pmksa_cache.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/rsn_supp/wpa_ie.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/utils/base64.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/utils/common.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/utils/ext_password.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/utils/uuid.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/utils/wpabuf.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/utils/wpa_debug.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/utils/json.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/wps/wps.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_build.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_parse.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/wps/wps_attr_process.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/wps/wps_common.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/wps/wps_dev_attr.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/wps/wps_enrollee.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/common/sae_pk.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_eap_client.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa2_api_port.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa_main.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpas_glue.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_common.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wps.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_wpa3.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_owe.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/esp_hostap.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/tls_mbedtls.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/fastpbkdf2.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-bignum.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-rsa.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/esp_supplicant/src/crypto/crypto_mbedtls-ec.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/rc4.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/des-internal.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-wrap.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-unwrap.c", "/Users/vnc3nt/esp/esp-idf/components/wpa_supplicant/src/crypto/aes-ccm.c" ],
             "include_dirs": [ "include", "port/include", "esp_supplicant/include" ]
         },
@@ -1089,7 +1089,7 @@
             "priv_reqs": [],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/xtensa/libxtensa.a",
+            "file": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/xtensa/libxtensa.a",
             "sources": [ "/Users/vnc3nt/esp/esp-idf/components/xtensa/eri.c", "/Users/vnc3nt/esp/esp-idf/components/xtensa/xt_trax.c", "/Users/vnc3nt/esp/esp-idf/components/xtensa/xtensa_context.S", "/Users/vnc3nt/esp/esp-idf/components/xtensa/xtensa_intr_asm.S", "/Users/vnc3nt/esp/esp-idf/components/xtensa/xtensa_intr.c", "/Users/vnc3nt/esp/esp-idf/components/xtensa/xtensa_vectors.S" ],
             "include_dirs": [ "esp32/include", "include", "deprecated_include" ]
         }
@@ -2371,7 +2371,7 @@
             "alias": "idf::main",
             "target": "___idf_main",
             "prefix": "idf",
-            "dir": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/main",
+            "dir": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/main",
             "lib": "__idf_main",
             "reqs": [ "driver", "json" ],
             "priv_reqs": [ "esp_https_server", "nvs_flash", "esp_timer", "esp_netif", "esp_eth", "esp_wifi", "espressif__mdns", "protocol_examples_common" ],
@@ -2383,7 +2383,7 @@
             "alias": "idf::espressif__mdns",
             "target": "___idf_espressif__mdns",
             "prefix": "idf",
-            "dir": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/managed_components/espressif__mdns",
+            "dir": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/managed_components/espressif__mdns",
             "lib": "__idf_espressif__mdns",
             "reqs": [ "lwip", "console", "esp_netif" ],
             "priv_reqs": [ "esp_timer", "esp_wifi" ],
@@ -2406,10 +2406,10 @@
     },
     "debug_prefix_map_gdbinit": "",
     "gdbinit_files": {
-        "01_symbols": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/gdbinit/symbols",
-        "02_prefix_map": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/gdbinit/prefix_map",
-        "03_py_extensions": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/gdbinit/py_extensions",
-        "04_connect": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/gdbinit/connect"
+        "01_symbols": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/gdbinit/symbols",
+        "02_prefix_map": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/gdbinit/prefix_map",
+        "03_py_extensions": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/gdbinit/py_extensions",
+        "04_connect": "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/gdbinit/connect"
     },
     "debug_arguments_openocd": "-f board/esp32-wrover-kit-3.3v.cfg"
 }

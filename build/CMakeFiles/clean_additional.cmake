@@ -23,8 +23,8 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   "servercert.pem.S"
   "style.css.S"
   "sun-moon.png.S"
-  "vier_gewinnt.bin"
-  "vier_gewinnt.map"
+  "vier_gewinnt_client.bin"
+  "vier_gewinnt_client.map"
   "x509_crt_bundle.S"
   )
 endif()

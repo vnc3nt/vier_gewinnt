@@ -1,4 +1,4 @@
-/* * Data converted from /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/html/img/sun-moon.png
+/* * Data converted from /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/html/img/sun-moon.png
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

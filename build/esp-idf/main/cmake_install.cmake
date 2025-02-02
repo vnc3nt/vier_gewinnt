@@ -1,4 +1,4 @@
-# Install script for directory: /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/main
+# Install script for directory: /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/main/install_local_manifest.txt"
+  file(WRITE "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/main/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

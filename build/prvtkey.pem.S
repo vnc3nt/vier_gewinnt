@@ -1,4 +1,4 @@
-/* * Data converted from /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/main/certs/prvtkey.pem
+/* * Data converted from /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/main/certs/prvtkey.pem
  * (null byte appended)
  */
 .data

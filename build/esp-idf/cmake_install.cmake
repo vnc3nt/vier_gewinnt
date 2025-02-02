@@ -39,362 +39,362 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/xtensa/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/xtensa/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/mbedtls/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/mbedtls/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/bootloader/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/bootloader/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esptool_py/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esptool_py/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/partition_table/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/partition_table/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_app_format/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_app_format/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_bootloader_format/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_bootloader_format/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/app_update/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/app_update/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_partition/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_partition/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/efuse/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/efuse/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/bootloader_support/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/bootloader_support/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_mm/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_mm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_gpio/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_gpio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/spi_flash/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/spi_flash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_timer/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_timer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_system/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_system/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_common/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_rom/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_rom/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/hal/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/hal/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/log/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/log/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/heap/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/heap/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/soc/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/soc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_security/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_security/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_hw_support/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_hw_support/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/freertos/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/freertos/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/newlib/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/newlib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/pthread/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/pthread/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/cxx/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/cxx/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_pm/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_ringbuf/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_ringbuf/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_pcnt/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_pcnt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_gptimer/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_gptimer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_spi/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_spi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_mcpwm/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_mcpwm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_ana_cmpr/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_ana_cmpr/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_i2s/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_i2s/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/sdmmc/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/sdmmc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_sdmmc/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_sdmmc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_sdspi/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_sdspi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_sdio/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_sdio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_dac/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_dac/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_rmt/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_rmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_tsens/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_tsens/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_sdm/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_sdm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_i2c/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_i2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_uart/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_uart/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_ledc/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_ledc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_parlio/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_parlio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_driver_usb_serial_jtag/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_driver_usb_serial_jtag/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/driver/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/driver/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/json/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/json/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/http_parser/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/http_parser/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_event/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_event/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_vfs_console/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_vfs_console/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/vfs/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/vfs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/lwip/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/lwip/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_http_server/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_http_server/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp-tls/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp-tls/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_https_server/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_https_server/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/nvs_flash/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/nvs_flash/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_netif_stack/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_netif_stack/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_netif/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_netif/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_eth/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_eth/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_phy/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_phy/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/wpa_supplicant/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/wpa_supplicant/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_coex/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_coex/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/esp_wifi/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/esp_wifi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/console/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/console/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/espressif__mdns/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/espressif__mdns/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/protocol_examples_common/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/protocol_examples_common/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/main/cmake_install.cmake")
+  include("/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/main/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/esp-idf/install_local_manifest.txt"
+  file(WRITE "/Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/esp-idf/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

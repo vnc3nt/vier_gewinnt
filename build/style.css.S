@@ -1,4 +1,4 @@
-/* * Data converted from /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/html/style.css
+/* * Data converted from /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/html/style.css
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

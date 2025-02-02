@@ -22,4 +22,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt/build/bootloader/bootloader.elf
+file /Users/vnc3nt/Documents/Code/VS-Code/ESP32/vier_gewinnt_client/build/bootloader/bootloader.elf
