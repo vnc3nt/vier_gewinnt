@@ -10,8 +10,7 @@ let barPlayer1 = null;
 let barPlayer2 = null;
 
 // WebSocket-Verbindung
-const socket = new WebSocket(`wss://${window.location.hostname}/ws`);
-
+const socket = new WebSocket('wss://192.168.4.1/ws');
 
 async function styleCurrentPlayer(player) {
     barPlayer1 = document.getElementById('barPlayer1');
@@ -146,12 +145,7 @@ socket.onmessage = function (event) {
 
 
 
-// show ip adresse
 
-document.addEventListener('DOMContentLoaded', () => {
-    // Setze den Eintrag auf den aktuellen Hostnamen
-    document.getElementById("espIp").innerText = window.location.hostname;
-});
 
 
 

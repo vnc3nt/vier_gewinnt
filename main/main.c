@@ -21,6 +21,11 @@
 
 
 
+
+
+
+
+
 // Pin Definitionen
 #define PAUSE_PIN           15
 #define HUMAN_PIN1         18
